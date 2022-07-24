@@ -6,11 +6,11 @@
     <link href="/dist/output.css" rel="stylesheet" />
   </head>
   <body>
-    <header class="bg-white shadow-lg px-20 py-5">
+    <header class="bg-white shadow-lg tablet:px-20 px-10 py-5">
       <nav
         class="container mx-auto flex justify-between items-center font-nunito"
       >
-        <div class="flex gap-14 items-center">
+        <div class="flex gap-16 items-center">
           <a href="#">
             <img
               src="./img/logo.png"
@@ -18,8 +18,8 @@
               class="w-[126px] h-[48px]"
             />
           </a>
-          <ul class="nav-group flex items-center gap-10 overflow-y-scroll">
-            <div class="close-navbar cursor-pointer">
+          <ul class="nav-group flex items-center gap-10">
+            <div class="close-navbar cursor-pointer tablet:hidden">
               <span
                 class="iconify text-3xl text-primary"
                 data-icon="bi:arrow-left-circle-fill"
@@ -66,9 +66,9 @@
           class="border-2 h-max w-max py-2 px-4 rounded-lg border-primary text-primary font-bold transition-colors hover:bg-primary hover:text-white tablet:block hidden"
           >Hubungi Kami</a
         >
-        <div class="open-navbar cursor-pointer">
+        <div class="open-navbar cursor-pointer tablet:hidden">
           <span
-            class="iconify tablet:hidden text-3xl"
+            class="iconify text-3xl text-primary"
             data-icon="fluent:list-16-filled"
           ></span>
         </div>

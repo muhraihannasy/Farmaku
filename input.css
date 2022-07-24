@@ -54,3 +54,10 @@ body {
 }
 
 /* End Dropdown Navbar */
+
+/* Media Query */
+@media (max-width: 919px) {
+  .nav-group {
+    @apply overflow-y-scroll;
+  }
+}

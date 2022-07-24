@@ -643,16 +643,12 @@ video {
   justify-content: space-between;
 }
 
-.gap-14 {
-  gap: 3.5rem;
+.gap-16 {
+  gap: 4rem;
 }
 
 .gap-10 {
   gap: 2.5rem;
-}
-
-.overflow-y-scroll {
-  overflow-y: scroll;
 }
 
 .rounded-lg {
@@ -673,9 +669,9 @@ video {
   background-color: rgb(255 255 255 / var(--tw-bg-opacity));
 }
 
-.px-20 {
-  padding-left: 5rem;
-  padding-right: 5rem;
+.px-10 {
+  padding-left: 2.5rem;
+  padding-right: 2.5rem;
 }
 
 .py-5 {
@@ -882,6 +878,14 @@ body {
 
 /* End Dropdown Navbar */
 
+/* Media Query */
+
+@media (max-width: 919px) {
+  .nav-group {
+    overflow-y: scroll;
+  }
+}
+
 .hover\:bg-primary:hover {
   --tw-bg-opacity: 1;
   background-color: rgb(35 133 200 / var(--tw-bg-opacity));
@@ -899,5 +903,10 @@ body {
 
   .tablet\:hidden {
     display: none;
+  }
+
+  .tablet\:px-20 {
+    padding-left: 5rem;
+    padding-right: 5rem;
   }
 }
