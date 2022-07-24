@@ -1,0 +1,56 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import url("https://fonts.googleapis.com/css2?family=Maven+Pro:wght@400;500;600;700;800&family=Nunito+Sans:wght@300;400;600;700&display=swap");
+
+/* font-family: "Maven Pro", sans-serif; */
+/* font-family: 'Nunito Sans', sans-serif; */
+body {
+  height: 1000rem;
+}
+
+/* Style Util */
+.container {
+  @apply max-w-7xl;
+}
+/* End Style Util */
+
+/* Navbar  */
+
+.nav-group {
+  @apply tablet:relative fixed tablet:left-auto -left-[20rem] tablet:top-auto top-0 tablet:bg-transparent  tablet:shadow-none shadow-lg tablet:flex-row flex-col items-start tablet:w-max w-[18rem] tablet:h-max  tablet:p-0 px-6 pt-10  bg-white h-full transition-all;
+}
+
+.nav-group.active {
+  @apply left-0;
+}
+
+/* End Navbar */
+
+/* Dropdown Navbar */
+.dropdown {
+  @apply relative cursor-pointer;
+}
+
+.dropdown.active ul {
+  @apply visible opacity-100 py-6 mt-2 max-h-max;
+}
+
+.nav-link {
+  @apply flex items-center gap-2 text-black2 font-bold transition-colors hover:text-primary;
+}
+
+.dropdown:hover ul {
+  @apply tablet:top-[3rem] tablet:visible tablet:opacity-100;
+}
+
+.dropdown ul {
+  @apply tablet:absolute tablet:top-[2rem] flex flex-col gap-6 bg-white rounded-xl shadow-lg tablet:p-6 tablet:w-[248px] tablet:max-h-max max-h-0 transition-all ease-in-out  opacity-0 invisible px-6;
+}
+
+.dropdown ul li a {
+  @apply transition-colors hover:text-primary;
+}
+
+/* End Dropdown Navbar */

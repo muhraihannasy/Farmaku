@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="/dist/output.css" rel="stylesheet" />
+  </head>
+  <body>
+    <header class="bg-white shadow-lg px-20 py-5">
+      <nav
+        class="container mx-auto flex justify-between items-center font-nunito"
+      >
+        <div class="flex gap-14 items-center">
+          <a href="#">
+            <img
+              src="./img/logo.png"
+              alt="Logo Fitwell"
+              class="w-[126px] h-[48px]"
+            />
+          </a>
+          <ul class="nav-group flex items-center gap-10 overflow-y-scroll">
+            <div class="close-navbar cursor-pointer">
+              <span
+                class="iconify text-3xl text-primary"
+                data-icon="bi:arrow-left-circle-fill"
+              ></span>
+            </div>
+
+            <li class="dropdown">
+              <a href="javascript:void(0)" class="nav-link"
+                >Penawaran
+                <span class="iconify" data-icon="ep:arrow-down-bold"></span
+              ></a>
+
+              <ul>
+                <li><a href="">Untuk Perusahaan</a></li>
+                <li><a href="">Untuk Penyedia Asuransi</a></li>
+              </ul>
+            </li>
+            <li class="dropdown">
+              <a href="javascript:void(0)" class="nav-link"
+                >Program
+                <span class="iconify" data-icon="ep:arrow-down-bold"></span>
+              </a>
+
+              <ul>
+                <li><a href="">Kesehatan Mental</a></li>
+                <li><a href="">Obesitas</a></li>
+                <li><a href="">Diabetes</a></li>
+                <li><a href="">Tekanan Darah Tinggi</a></li>
+                <li><a href="">Kolestrol</a></li>
+              </ul>
+            </li>
+            <li><a href="#" class="nav-link">Tentang Kami</a></li>
+            <li class="tablet:hidden">
+              <a
+                href=""
+                class="border-2 h-max w-max py-2 px-4 rounded-lg border-primary text-primary font-bold transition-colors hover:bg-primary hover:text-white"
+                >Hubungi Kami</a
+              >
+            </li>
+          </ul>
+        </div>
+        <a
+          href=""
+          class="border-2 h-max w-max py-2 px-4 rounded-lg border-primary text-primary font-bold transition-colors hover:bg-primary hover:text-white tablet:block hidden"
+          >Hubungi Kami</a
+        >
+        <div class="open-navbar cursor-pointer">
+          <span
+            class="iconify tablet:hidden text-3xl"
+            data-icon="fluent:list-16-filled"
+          ></span>
+        </div>
+      </nav>
+    </header>
+
+    <!-- Iconify -->
+    <script src="https://code.iconify.design/2/2.2.1/iconify.min.js"></script>
+
+    <!-- Custom Script -->
+    <script src="./js/app.js"></script>
+  </body>
+</html>
