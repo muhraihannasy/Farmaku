@@ -726,6 +726,12 @@ video {
 /* font-family: 'Nunito Sans', sans-serif; */
 
 body {
+  -webkit-tap-highlight-color: transparent;
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
   height: 1000rem;
 }
 
