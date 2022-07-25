@@ -18,6 +18,14 @@ body {
   height: 1000rem;
 }
 
+.swiper {
+  @apply w-full h-[624px] tablet:rounded-br-[312px] rounded-br-[5rem];
+}
+
+.swiper-slide {
+  @apply text-white text-[18px] bg-cover bg-center tablet:pl-[96px] px-10 flex flex-col gap-5 justify-center;
+}
+
 /* Style Util */
 .container {
   @apply max-w-7xl;
@@ -27,7 +35,7 @@ body {
 /* Navbar  */
 
 .nav-group {
-  @apply tablet:relative fixed tablet:left-auto -left-[20rem] tablet:top-auto top-0 tablet:bg-transparent  tablet:shadow-none shadow-lg tablet:flex-row flex-col items-start tablet:w-max w-[18rem] tablet:h-max tablet:p-0 px-6 pt-10 pb-10 bg-white h-full transition-all;
+  @apply tablet:relative fixed tablet:left-auto -left-[20rem] tablet:top-auto top-0 tablet:bg-transparent  tablet:shadow-none shadow-lg tablet:flex-row flex-col items-start tablet:w-max w-[18rem] tablet:h-max tablet:p-0 px-6 pt-10 pb-10 bg-white h-full transition-all z-50;
 }
 
 .nav-group.active {

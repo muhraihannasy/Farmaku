@@ -603,6 +603,10 @@ video {
   margin-right: auto;
 }
 
+.mt-\[10px\] {
+  margin-top: 10px;
+}
+
 .flex {
   display: flex;
 }
@@ -621,6 +625,10 @@ video {
   height: max-content;
 }
 
+.h-\[56px\] {
+  height: 56px;
+}
+
 .w-\[126px\] {
   width: 126px;
 }
@@ -631,12 +639,20 @@ video {
   width: max-content;
 }
 
+.w-\[194px\] {
+  width: 194px;
+}
+
 .cursor-pointer {
   cursor: pointer;
 }
 
 .items-center {
   align-items: center;
+}
+
+.justify-center {
+  justify-content: center;
 }
 
 .justify-between {
@@ -664,9 +680,18 @@ video {
   border-color: rgb(35 133 200 / var(--tw-border-opacity));
 }
 
+.border-white {
+  --tw-border-opacity: 1;
+  border-color: rgb(255 255 255 / var(--tw-border-opacity));
+}
+
 .bg-white {
   --tw-bg-opacity: 1;
   background-color: rgb(255 255 255 / var(--tw-bg-opacity));
+}
+
+.bg-\[url\(\'\/img\/bg-slide\.jpg\'\)\] {
+  background-image: url('/img/bg-slide.jpg');
 }
 
 .px-10 {
@@ -693,13 +718,29 @@ video {
   font-family: Nunito Sans, sans-serif;
 }
 
+.font-maven {
+  font-family: Maven Pro, sans-serif;
+}
+
 .text-3xl {
   font-size: 1.875rem;
   line-height: 2.25rem;
 }
 
+.text-\[48px\] {
+  font-size: 48px;
+}
+
 .font-bold {
   font-weight: 700;
+}
+
+.leading-\[56px\] {
+  line-height: 56px;
+}
+
+.leading-\[28px\] {
+  line-height: 28px;
 }
 
 .text-primary {
@@ -735,6 +776,38 @@ body {
   height: 1000rem;
 }
 
+.swiper {
+  height: 624px;
+  width: 100%;
+  border-bottom-right-radius: 5rem;
+}
+
+@media (min-width: 921px) {
+  .swiper {
+    border-bottom-right-radius: 312px;
+  }
+}
+
+.swiper-slide {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 1.25rem;
+  background-size: cover;
+  background-position: center;
+  padding-left: 2.5rem;
+  padding-right: 2.5rem;
+  font-size: 18px;
+  --tw-text-opacity: 1;
+  color: rgb(255 255 255 / var(--tw-text-opacity));
+}
+
+@media (min-width: 921px) {
+  .swiper-slide {
+    padding-left: 96px;
+  }
+}
+
 /* Style Util */
 
 .container {
@@ -749,6 +822,7 @@ body {
   position: fixed;
   left: -20rem;
   top: 0px;
+  z-index: 50;
   height: 100%;
   width: 18rem;
   flex-direction: column;
@@ -910,6 +984,10 @@ body {
 
   .tablet\:hidden {
     display: none;
+  }
+
+  .tablet\:w-\[565px\] {
+    width: 565px;
   }
 
   .tablet\:px-20 {
