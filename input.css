@@ -15,7 +15,7 @@ body {
   -moz-user-select: none;
   -ms-user-select: none;
   user-select: none;
-  height: 1000rem;
+  /* height: 1000rem; */
 }
 
 .swiper {

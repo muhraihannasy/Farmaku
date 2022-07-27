@@ -684,10 +684,6 @@ video {
   margin-top: 8px;
 }
 
-.ml-2 {
-  margin-left: 0.5rem;
-}
-
 .ml-4 {
   margin-left: 1rem;
 }
@@ -702,10 +698,6 @@ video {
 
 .grid {
   display: grid;
-}
-
-.list-item {
-  display: list-item;
 }
 
 .hidden {
@@ -799,10 +791,6 @@ video {
 
 .cursor-pointer {
   cursor: pointer;
-}
-
-.list-inside {
-  list-style-position: inside;
 }
 
 .list-disc {
@@ -955,11 +943,6 @@ video {
   padding: 2.5rem;
 }
 
-.px-8 {
-  padding-left: 2rem;
-  padding-right: 2rem;
-}
-
 .py-5 {
   padding-top: 1.25rem;
   padding-bottom: 1.25rem;
@@ -990,26 +973,8 @@ video {
   padding-bottom: 3rem;
 }
 
-.py-4 {
-  padding-top: 1rem;
-  padding-bottom: 1rem;
-}
-
-.py-3 {
-  padding-top: 0.75rem;
-  padding-bottom: 0.75rem;
-}
-
 .pt-20 {
   padding-top: 5rem;
-}
-
-.pl-2 {
-  padding-left: 0.5rem;
-}
-
-.pl-8 {
-  padding-left: 2rem;
 }
 
 .pl-4 {
@@ -1152,7 +1117,7 @@ body {
   -moz-user-select: none;
   -ms-user-select: none;
   user-select: none;
-  height: 1000rem;
+  /* height: 1000rem; */
 }
 
 .swiper {
@@ -1537,16 +1502,6 @@ select {
     flex-direction: row;
   }
 
-  .lg\:py-0 {
-    padding-top: 0px;
-    padding-bottom: 0px;
-  }
-
-  .lg\:py-4 {
-    padding-top: 1rem;
-    padding-bottom: 1rem;
-  }
-
   .lg\:py-3 {
     padding-top: 0.75rem;
     padding-bottom: 0.75rem;
@@ -1586,11 +1541,6 @@ select {
 
   .tablet\:gap-0 {
     gap: 0px;
-  }
-
-  .tablet\:px-20 {
-    padding-left: 5rem;
-    padding-right: 5rem;
   }
 
   .tablet\:py-4 {
