@@ -7,6 +7,9 @@ module.exports = {
       colors: {
         primary: "#2385c8",
         black2: "#333537",
+        grey: "#606363",
+        grey2: "#919494",
+        blueYoung: "#f4f9fc",
       },
       fontFamily: {
         maven: ["Maven Pro", "sans-serif"],
@@ -14,6 +17,8 @@ module.exports = {
       },
       screens: {
         tablet: "921px",
+        phone1: "768px",
+        phone: "523px",
       },
     },
   },

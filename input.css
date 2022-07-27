@@ -28,7 +28,7 @@ body {
 
 /* Style Util */
 .container {
-  @apply max-w-7xl;
+  @apply max-w-7xl mx-auto px-8;
 }
 /* End Style Util */
 
@@ -70,6 +70,23 @@ body {
 }
 
 /* End Dropdown Navbar */
+
+/* Form Contact */
+
+.input-box {
+  @apply flex flex-col gap-2 tablet:mb-[32px] mb-[20px];
+}
+
+form label {
+  @apply font-nunito text-sm;
+}
+
+.input-box input,
+select {
+  @apply h-[56px] border rounded-lg border-grey2 w-full px-4 bg-white;
+}
+
+/* End Form Contact */
 
 /* Media Query */
 @media (max-width: 919px) {
