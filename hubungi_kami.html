@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css" />
+    <link href="/dist/output.css" rel="stylesheet" />
+</head>
+
+<body>
+    <header class="bg-white shadow-lg py-5">
+        <nav class="container mx-auto flex justify-between items-center font-nunito">
+            <div class="flex gap-16 items-center">
+                <a href="#">
+                    <img src="./img/logo.png" alt="Logo Fitwell" class="w-[126px] h-[48px]" />
+                </a>
+                <ul class="nav-group flex items-center gap-10">
+                    <div class="close-navbar cursor-pointer tablet:hidden">
+                        <span class="iconify text-3xl text-primary" data-icon="bi:arrow-left-circle-fill"></span>
+                    </div>
+
+                    <li class="dropdown">
+                        <a href="javascript:void(0)" class="nav-link">Penawaran
+                            <span class="iconify" data-icon="ep:arrow-down-bold"></span></a>
+
+                        <ul>
+                            <li><a href="penawaran_perusahaan.html">Untuk Perusahaan</a></li>
+                            <li><a href="penawaran_penyedia.html">Untuk Penyedia Asuransi</a></li>
+                        </ul>
+                    </li>
+                    <li class="dropdown">
+                        <a href="javascript:void(0)" class="nav-link">Program
+                            <span class="iconify" data-icon="ep:arrow-down-bold"></span>
+                        </a>
+
+                        <ul>
+                            <li><a href="progam_kesehatan_mental.html">Kesehatan Mental</a></li>
+                            <li><a href="progam_obesitas.html">Obesitas</a></li>
+                            <li><a href="progam_diabetes.html">Diabetes</a></li>
+                            <li><a href="progam_tekanan_darah.html">Tekanan Darah Tinggi</a></li>
+                            <li><a href="progam_kolestrol.html">Kolestrol</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="tentang_kami.html" class="nav-link">Tentang Kami</a></li>
+                    <li class="tablet:hidden">
+                        <a href="hubungi_kami.html"
+                            class="border-2 h-max w-max py-2 px-4 rounded-lg border-primary text-primary font-bold transition-colors hover:bg-primary hover:text-white">Hubungi
+                            Kami</a>
+                    </li>
+                </ul>
+            </div>
+            <a href="hubungi_kami.html"
+                class="border-2 h-max w-max py-2 px-4 rounded-lg border-primary text-primary font-bold transition-colors hover:bg-primary hover:text-white tablet:block hidden">Hubungi
+                Kami</a>
+            <div class="open-navbar cursor-pointer tablet:hidden">
+                <span class="iconify text-3xl text-primary" data-icon="fluent:list-16-filled"></span>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <section
+            class="relative bg-[url('/img/bg2.svg')] h-[192px] flex flex-col justify-center before:bg-white before:h-[108px] before:w-[6rem] before:rounded-2xl before:absolute before:-left-[5rem] before:top-[23%] ">
+            <div class="container font-nunito text-white ">
+                <h2 class="text-sm">Beranda</h2>
+                <h2 class="font-maven font-bold text-[32px] mt-[16px]">Hubungi Kami</h2>
+            </div>
+        </section>
+
+        <section>
+            <div class="container grid lg:grid-cols-2 grid-cols-1 py-10">
+                <div
+                    class="relative lg:before:absolute lg:before:w-[4px] lg:before:h-[700px] lg:before:top-[1rem] lg:before:bg-pumpkin lg:before:right-0 lg:before:rounded-xl">
+                    <form class="rounded-xl bg-white p-10 tablet:h-[756px]">
+                        <div>
+                            <div class="grid md:grid-cols-2 grid-cols-1 phone1:gap-10">
+                                <div class="input-box">
+                                    <label for="first_name">Nama Depan</label>
+                                    <input type="text" name="first_name" id="first_name" />
+                                </div>
+                                <div class="input-box">
+                                    <label for="last_name">Nama Akhir</label>
+                                    <input type="text" name="last_name" id="last_name" />
+                                </div>
+                            </div>
+                            <div class="grid md:grid-cols-2 grid-cols-1 phone1:gap-10">
+                                <div class="input-box">
+                                    <label for="email_company">Email Perusahaan</label>
+                                    <input type="email" name="email_company" id="email_company" />
+                                </div>
+                                <div class="input-box">
+                                    <label for="phone_number">Nomor Ponsel</label>
+                                    <input type="number" name="phone_number" id="phone_number" />
+                                </div>
+                            </div>
+
+                            <div class="input-box w-full">
+                                <label for="company_name">Nama Perusahaan</label>
+                                <input type="text" name="company_name" id="company_name" />
+                            </div>
+                            <select name="category_question">
+                                <option value="Solusi untuk Perusahaan">
+                                    Solusi untuk Perusahaan
+                                </option>
+                            </select>
+                        </div>
+                        <p class="font-nunito text-lg text-black2 text-center mt-[32px] leading-[28px]">
+                            Fitwell membutuhkan informasi kontak Anda untuk menghubungi Anda
+                            kembali untuk menjelaskan tentang produk dan layanan kami. Anda
+                            dapat berhenti berlangganan komunikasi ini kapan saja. Kami
+                            berkomitmen untuk selalu melindungi privasi Anda, harap tinjau
+                            Kebijakan Privasi kami.
+                        </p>
+                        <button
+                            class="w-full h-[56px] bg-primary font-maven font-bold text-lg text-center text-white rounded-lg mt-[32px]"
+                            type="submit">
+                            Kirim
+                        </button>
+                    </form>
+                </div>
+
+                <div class="lg:pl-10 lg:mt-0 my-10 pt-6">
+                    <h4 class="font-nunito font-bold text-[18px] leading-[24px] text-black2">PT. Solusi Sarana Sehat
+                    </h4>
+                    <p class="font-nunito text-lg text-black2 my-[16px] leading-[28px]">
+                        Jl. Mandala Raya No.31A, RT.1/RW.4, Tomang, Kec. Grogol petamburan, Kota Jakarta Barat, Daerah
+                        Khusus Ibukota Jakarta
+                        11440
+                    </p>
+
+                    <div class="mapouter relative text-right h-[240px] lg:w-[594px]">
+                        <div class="gmap_canvas overflow-hidden bg-none h-[240px] lg:w-[594px] rounded-xl">
+                            <iframe width="600" height="500" id="gmap_canvas"
+                                src="https://maps.google.com/maps?q=Jl.%20Mandala%20Raya%20No.31A,%20RT.1/RW.4,%20Tomang,%20Kec.%20Grogol%20petamburan,%20Kota%20Jakarta%20Barat,%20Daerah%20Khusus%20Ibukota%20Jakarta%2011440&t=&z=13&ie=UTF8&iwloc=&output=embed"
+                                frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe><a
+                                href="https://123movies-to.org"></a><br>
+                        </div>
+                    </div>
+
+                    <h4 class="font-nunito font-bold text-[18px] leading-[24px] text-black2 mt-[40px] mb-[16px]">Layanan
+                        24/7
+                        Konsultasi
+                        Gratis
+                    </h4>
+
+                    <div class="grid lg:grid-cols-2 grid-cols-1 ">
+                        <div class="flex  gap-2">
+                            <span class="iconify text-[24px] text-pumpkin" data-icon="ic:round-email"></span>
+                            <p class="font-nunito text-lg text-black2  leading-[28px]">
+                                info@fitwell.id
+                            </p>
+                        </div>
+                        <div class="flex items-center gap-2">
+                            <span class="iconify text-[24px] text-green-500" data-icon="fa:whatsapp"></span>
+                            <p class="font-nunito text-lg text-black2  leading-[28px]">
+                                (+62) 812 1600 1600
+                            </p>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+
+        <section class="lg:py-3 py-6 border-t border-primary">
+            <div class="container flex lg:flex-row flex-col justify-between">
+                <a href="#" class="logo lg:mx-0 mx-auto lg:mb-0 mb-6">
+                    <img src="./img/logo.png" alt="Logo Fitwell" class="w-[148px] h-[56px]" />
+                </a>
+                <ul class="font-nunito text-base text-black2 flex lg:flex-row flex-col items-center gap-10">
+                    <li><a href="tentang_kami.html">Tentang Kami</a></li>
+                    <li><a href="hubungi_kami.html">Hubungi Kami</a></li>
+                    <li><a href="#">Sumber Informasi</a></li>
+                    <li><a href="syarat_ketentuan.html">Syarat dan Ketentuan</a></li>
+                    <li><a href="kebijakan_privacy.html">Kebijakan Privasi</a></li>
+                </ul>
+            </div>
+        </section>
+    </main>
+
+    <footer class="bg-primary ">
+        <div
+            class="container flex tablet:flex-row flex-col items-center justify-between tablet:gap-0 gap-6 tablet:py-4 py-6">
+            <p class="font-nunito text-sm text-white text-center">©2022 FitWell. Seluruh hak cipta. Dirancang dan
+                Dikembangkan
+                oleh PT Solusi Sarana Sehat.</p class="font-nunito ">
+            <div class="flex items-center gap-5">
+                <a href="">
+                    <img src="./img/facebook.svg" alt="Icon Facebook">
+                </a>
+                <a href="">
+                    <img src="./img/twitter.svg" alt="Icon Twitter">
+                </a>
+                <a href="">
+                    <img src="./img/instagram.svg" alt="Icon Instagram">
+                </a>
+                <a href="">
+                    <img src="./img/tiktok.svg" alt="Icon Tiktok">
+                </a>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Iconify -->
+    <script src="https://code.iconify.design/2/2.2.1/iconify.min.js"></script>
+
+    <!-- Swiper Slider -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
+
+    <!-- Custom Script -->
+    <script src="./js/app.js"></script>
+    <script src="./js/slider.js"></script>
+</body>
+
+</html>
