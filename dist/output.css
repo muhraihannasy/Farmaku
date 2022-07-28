@@ -1809,6 +1809,10 @@ select {
     gap: 1.25rem;
   }
 
+  .lg\:gap-0 {
+    gap: 0px;
+  }
+
   .lg\:border-r-4 {
     border-right-width: 4px;
   }
@@ -1816,6 +1820,10 @@ select {
   .lg\:border-pumpkin {
     --tw-border-opacity: 1;
     border-color: rgb(247 126 33 / var(--tw-border-opacity));
+  }
+
+  .lg\:p-10 {
+    padding: 2.5rem;
   }
 
   .lg\:py-3 {
