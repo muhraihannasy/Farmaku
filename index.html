@@ -1,730 +1,515 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link
-      rel="stylesheet"
-      href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css"
-    />
-    <link href="/dist/output.css" rel="stylesheet" />
-  </head>
-  <body>
-<header class="bg-white shadow-lg py-5">
-      <nav
-        class="container mx-auto flex justify-between items-center font-nunito"
-      >
-        <div class="flex gap-16 items-center">
-          <a href="#">
-            <img
-              src="./img/logo.png"
-              alt="Logo Fitwell"
-              class="w-[126px] h-[48px]"
-            />
-          </a>
-          <ul class="nav-group flex items-center gap-10">
-            <div class="close-navbar cursor-pointer tablet:hidden">
-              <span
-                class="iconify text-3xl text-primary"
-                data-icon="bi:arrow-left-circle-fill"
-              ></span>
-            </div>
 
-            <li class="dropdown">
-              <a href="javascript:void(0)" class="nav-link"
-                >Penawaran
-                <span class="iconify" data-icon="ep:arrow-down-bold"></span
-              ></a>
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css" />
+  <link href="/dist/output.css" rel="stylesheet" />
+</head>
 
-              <ul>
-                <li><a href="">Untuk Perusahaan</a></li>
-                <li><a href="">Untuk Penyedia Asuransi</a></li>
-              </ul>
-            </li>
-            <li class="dropdown">
-              <a href="javascript:void(0)" class="nav-link"
-                >Program
-                <span class="iconify" data-icon="ep:arrow-down-bold"></span>
-              </a>
-
-              <ul>
-                <li><a href="">Kesehatan Mental</a></li>
-                <li><a href="">Obesitas</a></li>
-                <li><a href="">Diabetes</a></li>
-                <li><a href="">Tekanan Darah Tinggi</a></li>
-                <li><a href="">Kolestrol</a></li>
-              </ul>
-            </li>
-            <li><a href="#" class="nav-link">Tentang Kami</a></li>
-            <li class="tablet:hidden">
-              <a
-                href=""
-                class="border-2 h-max w-max py-2 px-4 rounded-lg border-primary text-primary font-bold transition-colors hover:bg-primary hover:text-white"
-                >Hubungi Kami</a
-              >
-            </li>
-          </ul>
-        </div>
-        <a
-          href=""
-          class="border-2 h-max w-max py-2 px-4 rounded-lg border-primary text-primary font-bold transition-colors hover:bg-primary hover:text-white tablet:block hidden"
-          >Hubungi Kami</a
-        >
-        <div class="open-navbar cursor-pointer tablet:hidden">
-          <span
-            class="iconify text-3xl text-primary"
-            data-icon="fluent:list-16-filled"
-          ></span>
-        </div>
-      </nav>
-    </header>
-
-    <main>
-      <section>
-        <div class="swiper mySwiper">
-          <div class="swiper-wrapper">
-            <div class="swiper-slide bg-[url('/img/bg-slide.jpg')]">
-              <h1
-                class="md:text-[48px] text-[40px] font-maven font-bold tablet:w-[565px] leading-[56px]"
-              >
-                Aplikasi Kesehatan Terstruktur Untuk Anda
-              </h1>
-              <p class="tablet:w-[565px] leading-[28px]">
-                Perawatan kesehatan mental dan fisik yang dirancang untuk
-                membantu Anda mencapai gaya hidup sehat yang lebih baik.
-              </p>
-              <a
-                href=""
-                class="w-[194px] h-[56px] mt-[10px] flex justify-center items-center border-white border-2 rounded-lg transition-all font-bold font-maven text-[16px] hover:bg-white hover:text-primary"
-                >Pelajari Lebih Lanjut</a
-              >
-            </div>
-            <div class="swiper-slide bg-[url('/img/bg-slide.jpg')]">
-              <h1
-                class="md:text-[48px] text-[40px] font-maven font-bold tablet:w-[565px] leading-[56px]"
-              >
-                Aplikasi Kesehatan Terstruktur Untuk Anda
-              </h1>
-              <p class="tablet:w-[565px] leading-[28px]">
-                Perawatan kesehatan mental dan fisik yang dirancang untuk
-                membantu Anda mencapai gaya hidup sehat yang lebih baik.
-              </p>
-              <a
-                href=""
-                class="w-[194px] h-[56px] mt-[10px] flex justify-center items-center border-white border-2 rounded-lg transition-all font-bold font-maven text-[16px] hover:bg-white hover:text-primary"
-                >Pelajari Lebih Lanjut</a
-              >
-            </div>
+<body>
+  <header class="bg-white shadow-lg py-5">
+    <nav class="container mx-auto flex justify-between items-center font-nunito">
+      <div class="flex gap-16 items-center">
+        <a href="#">
+          <img src="./img/logo.png" alt="Logo Fitwell" class="w-[126px] h-[48px]" />
+        </a>
+        <ul class="nav-group flex items-center gap-10">
+          <div class="close-navbar cursor-pointer tablet:hidden">
+            <span class="iconify text-3xl text-primary" data-icon="bi:arrow-left-circle-fill"></span>
           </div>
-          <div class="swiper-pagination"></div>
-        </div>
-      </section>
 
-      <section>
-        <div class="container">
-          <div class="flex flex-col mt-[50px] items-center">
-            <h2
-              class="font-maven font-bold md:text-[40px] text-[35px] text-black2 text-center md:w-[696px] leading-[48px]"
-            >
-              Bagaimana Kami dapat membantu bisnis Anda?
-            </h2>
-            <p
-              class="font-nunito font-normal text-lg text-grey text-center lg:w-[764px] leading-[28px] mt-[32px]"
-            >
-              Fitwell dapat membantu perusahaan untuk meningkatkan produktivitas
-              karyawannya dengan cara menjaga kesehatan mental karyawannya
-              hingga kesehatan jasmani karyawan bersama coach kami.
+          <li class="dropdown">
+            <a href="javascript:void(0)" class="nav-link">Penawaran
+              <span class="iconify" data-icon="ep:arrow-down-bold"></span></a>
+
+            <ul>
+              <li><a href="penawaran_perusahaan.html">Untuk Perusahaan</a></li>
+              <li><a href="penawaran_penyedia.html">Untuk Penyedia Asuransi</a></li>
+            </ul>
+          </li>
+          <li class="dropdown">
+            <a href="javascript:void(0)" class="nav-link">Program
+              <span class="iconify" data-icon="ep:arrow-down-bold"></span>
+            </a>
+
+            <ul>
+              <li><a href="progam_kesehatan_mental.html">Kesehatan Mental</a></li>
+              <li><a href="progam_obesitas.html">Obesitas</a></li>
+              <li><a href="progam_diabetes.html">Diabetes</a></li>
+              <li><a href="progam_tekanan_darah.html">Tekanan Darah Tinggi</a></li>
+              <li><a href="progam_kolestrol.html">Kolestrol</a></li>
+            </ul>
+          </li>
+          <li><a href="tentang_kami.html" class="nav-link">Tentang Kami</a></li>
+          <li class="tablet:hidden">
+            <a href="hubungi_kami.html"
+              class="border-2 h-max w-max py-2 px-4 rounded-lg border-primary text-primary font-bold transition-colors hover:bg-primary hover:text-white">Hubungi
+              Kami</a>
+          </li>
+        </ul>
+      </div>
+      <a href=""
+        class="border-2 h-max w-max py-2 px-4 rounded-lg border-primary text-primary font-bold transition-colors hover:bg-primary hover:text-white tablet:block hidden">Hubungi
+        Kami</a>
+      <div class="open-navbar cursor-pointer tablet:hidden">
+        <span class="iconify text-3xl text-primary" data-icon="fluent:list-16-filled"></span>
+      </div>
+    </nav>
+  </header>
+
+  <main>
+    <section>
+      <div class="swiper mySwiper">
+        <div class="swiper-wrapper">
+          <div class="swiper-slide bg-[url('/img/bg-slide.jpg')]">
+            <h1 class="md:text-[48px] text-[40px] font-maven font-bold tablet:w-[565px] leading-[56px]">
+              Aplikasi Kesehatan Terstruktur Untuk Anda
+            </h1>
+            <p class="tablet:w-[565px] leading-[28px]">
+              Perawatan kesehatan mental dan fisik yang dirancang untuk
+              membantu Anda mencapai gaya hidup sehat yang lebih baik.
             </p>
+            <a href=""
+              class="w-[194px] h-[56px] mt-[10px] flex justify-center items-center border-white border-2 rounded-lg transition-all font-bold font-maven text-[16px] hover:bg-white hover:text-primary">Pelajari
+              Lebih Lanjut</a>
           </div>
-
-          <div class="grid lg:grid-cols-3 grid-cols-1 gap-8 mt-[64px]">
-            <div
-              class="card flex flex-col justify-center items-center shadow-lg rounded-2xl py-6 px-4 h-[490px]"
-            >
-              <img
-                class="icon w-[188px] h-[188px]"
-                src="./img/how icon 1.png"
-                alt="icon"
-              />
-              <h3 class="title font-maven font-bold text-[20px] mt-[64px]">
-                Penggunaan Personal
-              </h3>
-              <p
-                class="font-nunito font-normal text-[18px] text-grey leading-[28px] text-center mt-[1rem]"
-              >
-                Aplikasi ini dirancang khusus untuk kebutuhan karyawan Anda
-                secara pribadi
-              </p>
-            </div>
-            <div
-              class="card flex flex-col justify-center items-center shadow-lg rounded-2xl py-6 px-4 h-[490px]"
-            >
-              <img
-                class="icon w-[188px] h-[188px]"
-                src="./img/how icon 2.png"
-                alt="icon"
-              />
-              <h3 class="title font-maven font-bold text-[20px] mt-[64px]">
-                Karyawan Lebih Produktif
-              </h3>
-              <p
-                class="font-nunito font-normal text-[18px] text-grey leading-[28px] text-center mt-[1rem]"
-              >
-                Meningkatkan produktivitas dan team work karyawan pada
-                perusahaan Anda
-              </p>
-            </div>
-            <div
-              class="card flex flex-col justify-center items-center shadow-lg rounded-2xl py-6 px-4 h-[490px]"
-            >
-              <img
-                class="icon w-[188px] h-[188px]"
-                src="./img/how icon 3.png"
-                alt="icon"
-              />
-              <h3 class="title font-maven font-bold text-[20px] mt-[64px]">
-                Hanya Satu Aplikasi
-              </h3>
-              <p
-                class="font-nunito font-normal text-[18px] text-grey leading-[28px] text-center mt-[1rem]"
-              >
-                Kebutuhan wellness karyawan dapat dilakukan hanya dengan satu
-                aplikasi
-              </p>
-            </div>
-          </div>
-        </div>
-      </section>
-
-      <section
-        class="bg-[url('/img/bg-hsection3.svg')] bg-center bg-cover bg-no-repeat lg:h-[608px] overflow-y-hidden overflow-x-hidden mt-[56px]"
-      >
-        <div class="container grid lg:grid-cols-2 grid-cols-1 text-white pt-20">
-          <div>
-            <h2
-              class="md:text-[48px] text-[40px] font-maven font-bold leading-[48px]"
-            >
-              Ubah Kesehatan Karyawan Anda.
-            </h2>
-            <span
-              class="block bg-white phone:w-[436px] w-full h-[4px] my-[34px] rounded-xl"
-            ></span>
-            <p class="font-nunito leading-[28px] text-lg mt0">
-              Data dan ilmu Perilaku digabungkan. Terkoordinasi, Multidisiplin,
-              Perawatan Pribadi.
+          <div class="swiper-slide bg-[url('/img/bg-slide.jpg')]">
+            <h1 class="md:text-[48px] text-[40px] font-maven font-bold tablet:w-[565px] leading-[56px]">
+              Aplikasi Kesehatan Terstruktur Untuk Anda
+            </h1>
+            <p class="tablet:w-[565px] leading-[28px]">
+              Perawatan kesehatan mental dan fisik yang dirancang untuk
+              membantu Anda mencapai gaya hidup sehat yang lebih baik.
             </p>
-            <h2
-              class="font-maven font-bold leading-[48px] md:text-[48px] text-[40px] mt-[34px]"
-            >
-              Fitur Kami
-            </h2>
-
-            <div
-              class="grid phone:grid-cols-2 grid-cols-1 gap-8 mt-[34px] sm:max-w-max"
-            >
-              <div class="flex items-center gap-5">
-                <img
-                  src="./img/personal_coach.png"
-                  alt="Icon Personal Coach"
-                  class="w-[56px] h-[56px]"
-                />
-                <p class="font-nunito text-lg">Personal Coach</p>
-              </div>
-              <div class="flex items-center gap-5">
-                <img
-                  src="./img/phamarcy.png"
-                  alt="Icon Pharmacy"
-                  class="w-[56px] h-[56px]"
-                />
-                <p class="font-nunito text-lg">Pharmacy</p>
-              </div>
-              <div class="flex items-center gap-5">
-                <img
-                  src="./img/health_article.png"
-                  alt="Icon Health Article"
-                  class="w-[56px] h-[56px]"
-                />
-                <p class="font-nunito text-lg">Health Article</p>
-              </div>
-              <div class="flex items-center gap-5">
-                <img
-                  src="./img/healty_catering.png"
-                  alt="Icon Health Catering"
-                  class="w-[56px] h-[56px]"
-                />
-                <p class="font-nunito text-lg">Health Catering</p>
-              </div>
-            </div>
-          </div>
-          <div>
-            <img
-              src="./img/phone.png"
-              alt="Gambar Aplikasi Fitwell"
-              class="lg:h-[668.39px] lg:w-[510px] lg:-translate-y-[2rem] lg:translate-x-[4rem] translate-y-[4rem] lg:mt-0 w-[80%] lg:mx-0 mx-auto"
-            />
+            <a href=""
+              class="w-[194px] h-[56px] mt-[10px] flex justify-center items-center border-white border-2 rounded-lg transition-all font-bold font-maven text-[16px] hover:bg-white hover:text-primary">Pelajari
+              Lebih Lanjut</a>
           </div>
         </div>
-      </section>
+        <div class="swiper-pagination"></div>
+      </div>
+    </section>
 
-      <section>
-        <div class="container">
-          <div class="flex flex-col mt-[50px] items-center">
-            <h2
-              class="font-maven font-bold md:text-[40px] text-[35px] text-black2 text-center md:w-[696px] leading-[48px]"
-            >
-              Kenapa Fitwell harus hadir di perusahaan Anda?
-            </h2>
-            <p
-              class="font-nunito font-normal text-lg text-grey text-center lg:w-[764px] leading-[28px] mt-[32px]"
-            >
-              FitWell memiliki beberapa keunggulan yang dapat membantu serta
-              memudahkan pengguna untuk melakukan konsultasi hingga pembelian
-              produk farmasi dalam satu aplikasi.
-            </p>
-          </div>
-
-          <div class="grid lg:grid-cols-3 grid-cols-1 gap-8 mt-[64px]">
-            <div
-              class="card flex flex-col justify-center items-center shadow-lg rounded-2xl py-6 px-4 h-[490px]"
-            >
-              <img
-                class="icon w-[188px] h-[188px]"
-                src="./img/why icon 1.png"
-                alt="icon"
-              />
-              <h3 class="title font-maven font-bold text-[20px] mt-[64px]">
-                Konsultasi Dari Rumah
-              </h3>
-              <p
-                class="font-nunito font-normal text-[18px] text-grey leading-[28px] text-center mt-[1rem]"
-              >
-                Kurangi kunjungan fasilitas Kesehatan dengan aplikasi Fitwell
-              </p>
-            </div>
-            <div
-              class="card flex flex-col justify-center items-center shadow-lg rounded-2xl py-6 px-4 h-[490px]"
-            >
-              <img
-                class="icon w-[188px] h-[188px]"
-                src="./img/why icon 2.png"
-                alt="icon"
-              />
-              <h3 class="title font-maven font-bold text-[20px] mt-[64px]">
-                Produk Farmasi Terlengkap
-              </h3>
-              <p
-                class="font-nunito font-normal text-[18px] text-grey leading-[28px] text-center mt-[1rem]"
-              >
-                Belanja online produk farmasi yang lengkap
-              </p>
-            </div>
-            <div
-              class="card flex flex-col justify-center items-center shadow-lg rounded-2xl py-6 px-4 h-[490px]"
-            >
-              <img
-                class="icon w-[188px] h-[188px]"
-                src="./img/why icon 3.png"
-                alt="icon"
-              />
-              <h3 class="title font-maven font-bold text-[20px] mt-[64px]">
-                Catering Sehat
-              </h3>
-              <p
-                class="font-nunito font-normal text-[18px] text-grey leading-[28px] text-center mt-[1rem]"
-              >
-                Atur kebutuhan nutrisi dengan layanan catering sehat
-              </p>
-            </div>
-          </div>
-        </div>
-      </section>
-
-      <section class="bg-blueYoung mt-[56px] py-16">
-        <div class="container">
+    <section>
+      <div class="container">
+        <div class="flex flex-col mt-[50px] items-center">
           <h2
-            class="font-maven font-bold md:text-[40px] text-black2 text-[35px] text-center md:w-[540px] leading-[48px] mb-[64px] mx-auto"
-          >
-            Didukung oleh tim ahli multi-disiplin
+            class="font-maven font-bold md:text-[40px] text-[35px] text-black2 text-center md:w-[696px] leading-[48px]">
+            Bagaimana Kami dapat membantu bisnis Anda?
           </h2>
-          <div class="grid gap-10 xl:grid-cols-4 md:grid-cols-2 grid-cols-1">
-            <div
-              class="card flex flex-col bg-white justify-center items-center shadow-lg rounded-2xl py-6 px-4 h-[386px]"
-            >
-              <div
-                class="w-[188px] h-[188px] rounded-full overflow-hidden flex items-center justify-center"
-              >
-                <img
-                  src="./img/dokter1.png"
-                  alt="Foto Dokter"
-                  class="object-cover"
-                />
-              </div>
-              <h3 class="title font-maven font-bold text-[20px] mt-[64px]">
-                Yudha Eka Hekasatria...
-              </h3>
-              <p
-                class="font-nunito font-normal text-[18px] text-grey leading-[28px] text-center mt-[1rem]"
-              >
-                Psychologist
-              </p>
-            </div>
-            <div
-              class="card flex flex-col bg-white justify-center items-center shadow-lg rounded-2xl py-6 px-4 h-[386px]"
-            >
-              <div
-                class="w-[188px] h-[188px] rounded-full overflow-hidden flex items-center justify-center"
-              >
-                <img
-                  src="./img/dokter2.png"
-                  alt="Foto Dokter"
-                  class="object-cover"
-                />
-              </div>
-              <h3 class="title font-maven font-bold text-[20px] mt-[64px]">
-                dr. Aloisia Permata Sa...
-              </h3>
-              <p
-                class="font-nunito font-normal text-[18px] text-grey leading-[28px] text-center mt-[1rem]"
-              >
-                Medical Advisor
-              </p>
-            </div>
-            <div
-              class="card flex flex-col bg-white justify-center items-center shadow-lg rounded-2xl py-6 px-4 h-[386px]"
-            >
-              <div
-                class="w-[188px] h-[188px] rounded-full overflow-hidden flex items-center justify-center"
-              >
-                <img
-                  src="./img/dokter3.png"
-                  alt="Foto Dokter"
-                  class="object-cover"
-                />
-              </div>
-              <h3 class="title font-maven font-bold text-[20px] mt-[64px]">
-                Rani Kurnia Sari
-              </h3>
-              <p
-                class="font-nunito font-normal text-[18px] text-grey leading-[28px] text-center mt-[1rem]"
-              >
-                Dietitian
-              </p>
-            </div>
-            <div
-              class="card flex flex-col bg-white justify-center items-center shadow-lg rounded-2xl py-6 px-4 h-[386px]"
-            >
-              <div
-                class="w-[188px] h-[188px] rounded-full overflow-hidden flex items-center justify-center"
-              >
-                <img
-                  src="./img/dokter4.png"
-                  alt="Foto Dokter"
-                  class="object-cover"
-                />
-              </div>
-              <h3 class="title font-maven font-bold text-[20px] mt-[64px]">
-                Taufiq Rizki Mubarak
-              </h3>
-              <p
-                class="font-nunito font-normal text-[18px] text-grey leading-[28px] text-center mt-[1rem]"
-              >
-                Fitness Coach
-              </p>
-            </div>
-          </div>
-        </div>
-      </section>
-
-      <section class="mt-[56px]">
-        <div class="container flex flex-col gap-24">
-          <div class="grid lg:grid-cols-2 grid-cols-1 gap-16">
-            <img src="./img/benefit1.png" alt="Gambar" />
-            <div>
-              <h3 class="font-maven text-[32px] font-bold text-black2">
-                Pelatihan yang Dipersonalisasi
-              </h3>
-              <p
-                class="font-nunito font-normal text-[18px] text-grey leading-[28px] mt-[1rem]"
-              >
-                Didukung oleh sains dan berdasarkan masukan Anda dengan waktu
-                respons 24 jam
-              </p>
-            </div>
-          </div>
-          <div class="grid lg:grid-cols-2 grid-cols-1 gap-16">
-            <div>
-              <h3 class="font-maven text-[32px] font-bold text-black2">
-                Perubahan Bermakna dan Abadi
-              </h3>
-              <p
-                class="font-nunito font-normal text-[18px] text-grey leading-[28px] mt-[1rem]"
-              >
-                Perubahan kecil dari waktu ke waktu menyebabkan dampak besar.
-              </p>
-            </div>
-            <img src="./img/benefit2.png" alt="Gambar" />
-          </div>
-          <div class="grid lg:grid-cols-2 grid-cols-1 gap-16">
-            <img src="./img/benefit3.png" alt="Gambar" />
-            <div>
-              <h3 class="font-maven text-[32px] font-bold text-black2">
-                Akuntabilitas
-              </h3>
-              <p
-                class="font-nunito font-normal text-[18px] text-grey leading-[28px] mt-[1rem]"
-              >
-                Dibangun melalui membangun hubungan berbasis kepercayaan dengan
-                pelatih Anda
-              </p>
-            </div>
-          </div>
-        </div>
-      </section>
-
-      <section class="bg-blueYoung mt-[56px] py-12">
-        <div class="container">
-          <h2
-            class="font-maven font-bold md:text-[40px] text-black2 text-[35px] text-center leading-[48px] mb-[24px] mx-auto"
-          >
-            Apa Kata Mereka
-          </h2>
-          <p
-            class="font-nunito font-normal text-[18px] text-center text-black2 leading-[28px]"
-          >
-            Hal-hal yang menjadikannya tempat terbaik untuk memulai hidup sehat.
+          <p class="font-nunito font-normal text-lg text-grey text-center lg:w-[764px] leading-[28px] mt-[32px]">
+            Fitwell dapat membantu perusahaan untuk meningkatkan produktivitas
+            karyawannya dengan cara menjaga kesehatan mental karyawannya
+            hingga kesehatan jasmani karyawan bersama coach kami.
           </p>
+        </div>
 
+        <div class="grid lg:grid-cols-3 grid-cols-1 gap-8 mt-[64px]">
+          <div class="card flex flex-col justify-center items-center shadow-lg rounded-2xl py-6 px-4 h-[490px]">
+            <img class="icon w-[188px] h-[188px]" src="./img/how icon 1.png" alt="icon" />
+            <h3 class="title font-maven font-bold text-[20px] mt-[64px]">
+              Penggunaan Personal
+            </h3>
+            <p class="font-nunito font-normal text-[18px] text-grey leading-[28px] text-center mt-[1rem]">
+              Aplikasi ini dirancang khusus untuk kebutuhan karyawan Anda
+              secara pribadi
+            </p>
+          </div>
+          <div class="card flex flex-col justify-center items-center shadow-lg rounded-2xl py-6 px-4 h-[490px]">
+            <img class="icon w-[188px] h-[188px]" src="./img/how icon 2.png" alt="icon" />
+            <h3 class="title font-maven font-bold text-[20px] mt-[64px]">
+              Karyawan Lebih Produktif
+            </h3>
+            <p class="font-nunito font-normal text-[18px] text-grey leading-[28px] text-center mt-[1rem]">
+              Meningkatkan produktivitas dan team work karyawan pada
+              perusahaan Anda
+            </p>
+          </div>
+          <div class="card flex flex-col justify-center items-center shadow-lg rounded-2xl py-6 px-4 h-[490px]">
+            <img class="icon w-[188px] h-[188px]" src="./img/how icon 3.png" alt="icon" />
+            <h3 class="title font-maven font-bold text-[20px] mt-[64px]">
+              Hanya Satu Aplikasi
+            </h3>
+            <p class="font-nunito font-normal text-[18px] text-grey leading-[28px] text-center mt-[1rem]">
+              Kebutuhan wellness karyawan dapat dilakukan hanya dengan satu
+              aplikasi
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section
+      class="bg-[url('/img/bg-hsection3.svg')] bg-center bg-cover bg-no-repeat lg:h-[608px] overflow-y-hidden overflow-x-hidden mt-[56px]">
+      <div class="container grid lg:grid-cols-2 grid-cols-1 text-white pt-20">
+        <div>
+          <h2 class="md:text-[48px] text-[40px] font-maven font-bold leading-[48px]">
+            Ubah Kesehatan Karyawan Anda.
+          </h2>
+          <span class="block bg-white phone:w-[436px] w-full h-[4px] my-[34px] rounded-xl"></span>
+          <p class="font-nunito leading-[28px] text-lg mt0">
+            Data dan ilmu Perilaku digabungkan. Terkoordinasi, Multidisiplin,
+            Perawatan Pribadi.
+          </p>
+          <h2 class="font-maven font-bold leading-[48px] md:text-[48px] text-[40px] mt-[34px]">
+            Fitur Kami
+          </h2>
+
+          <div class="grid phone:grid-cols-2 grid-cols-1 gap-8 mt-[34px] sm:max-w-max">
+            <div class="flex items-center gap-5">
+              <img src="./img/personal_coach.png" alt="Icon Personal Coach" class="w-[56px] h-[56px]" />
+              <p class="font-nunito text-lg">Personal Coach</p>
+            </div>
+            <div class="flex items-center gap-5">
+              <img src="./img/phamarcy.png" alt="Icon Pharmacy" class="w-[56px] h-[56px]" />
+              <p class="font-nunito text-lg">Pharmacy</p>
+            </div>
+            <div class="flex items-center gap-5">
+              <img src="./img/health_article.png" alt="Icon Health Article" class="w-[56px] h-[56px]" />
+              <p class="font-nunito text-lg">Health Article</p>
+            </div>
+            <div class="flex items-center gap-5">
+              <img src="./img/healty_catering.png" alt="Icon Health Catering" class="w-[56px] h-[56px]" />
+              <p class="font-nunito text-lg">Health Catering</p>
+            </div>
+          </div>
+        </div>
+        <div>
+          <img src="./img/phone.png" alt="Gambar Aplikasi Fitwell"
+            class="lg:h-[668.39px] lg:w-[510px] lg:-translate-y-[2rem] lg:translate-x-[4rem] translate-y-[4rem] lg:mt-0 w-[80%] lg:mx-0 mx-auto" />
+        </div>
+      </div>
+    </section>
+
+    <section>
+      <div class="container">
+        <div class="flex flex-col mt-[50px] items-center">
+          <h2
+            class="font-maven font-bold md:text-[40px] text-[35px] text-black2 text-center md:w-[696px] leading-[48px]">
+            Kenapa Fitwell harus hadir di perusahaan Anda?
+          </h2>
+          <p class="font-nunito font-normal text-lg text-grey text-center lg:w-[764px] leading-[28px] mt-[32px]">
+            FitWell memiliki beberapa keunggulan yang dapat membantu serta
+            memudahkan pengguna untuk melakukan konsultasi hingga pembelian
+            produk farmasi dalam satu aplikasi.
+          </p>
+        </div>
+
+        <div class="grid lg:grid-cols-3 grid-cols-1 gap-8 mt-[64px]">
+          <div class="card flex flex-col justify-center items-center shadow-lg rounded-2xl py-6 px-4 h-[490px]">
+            <img class="icon w-[188px] h-[188px]" src="./img/why icon 1.png" alt="icon" />
+            <h3 class="title font-maven font-bold text-[20px] mt-[64px]">
+              Konsultasi Dari Rumah
+            </h3>
+            <p class="font-nunito font-normal text-[18px] text-grey leading-[28px] text-center mt-[1rem]">
+              Kurangi kunjungan fasilitas Kesehatan dengan aplikasi Fitwell
+            </p>
+          </div>
+          <div class="card flex flex-col justify-center items-center shadow-lg rounded-2xl py-6 px-4 h-[490px]">
+            <img class="icon w-[188px] h-[188px]" src="./img/why icon 2.png" alt="icon" />
+            <h3 class="title font-maven font-bold text-[20px] mt-[64px]">
+              Produk Farmasi Terlengkap
+            </h3>
+            <p class="font-nunito font-normal text-[18px] text-grey leading-[28px] text-center mt-[1rem]">
+              Belanja online produk farmasi yang lengkap
+            </p>
+          </div>
+          <div class="card flex flex-col justify-center items-center shadow-lg rounded-2xl py-6 px-4 h-[490px]">
+            <img class="icon w-[188px] h-[188px]" src="./img/why icon 3.png" alt="icon" />
+            <h3 class="title font-maven font-bold text-[20px] mt-[64px]">
+              Catering Sehat
+            </h3>
+            <p class="font-nunito font-normal text-[18px] text-grey leading-[28px] text-center mt-[1rem]">
+              Atur kebutuhan nutrisi dengan layanan catering sehat
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="bg-blueYoung mt-[56px] py-16">
+      <div class="container">
+        <h2
+          class="font-maven font-bold md:text-[40px] text-black2 text-[35px] text-center md:w-[540px] leading-[48px] mb-[64px] mx-auto">
+          Didukung oleh tim ahli multi-disiplin
+        </h2>
+        <div class="grid gap-10 xl:grid-cols-4 md:grid-cols-2 grid-cols-1">
           <div
-            class="grid xl:grid-cols-3 md:grid-cols-2 grid-cols-1 gap-10 mt-[64px]"
-          >
-            <div
-              class="card flex flex-col bg-white justify-center items-center shadow-lg rounded-2xl py-6 px-4 h-[468px]"
-            >
-              <div
-                class="w-[96px] h-[96px] rounded-full overflow-hidden flex items-center justify-center"
-              >
-                <img
-                  src="./img/testi1.png"
-                  alt="Foto Dokter"
-                  class="object-cover"
-                />
-              </div>
-              <p
-                class="font-nunito font-normal text-[18px] text-grey leading-[28px] text-center my-[32px] phone:w-[301.33px]"
-              >
-                “Dengan adanya Fitwell dapat membantu karyawan yang ada di
-                perusahaan kami menjadi lebih sehat dan meningkatkan
-                produktivitas karyawan”
-              </p>
-              <div>
-                <p
-                  class="font-nunito font-normal text-[18px] text-grey leading-[28px] text-center"
-                >
-                  Fathiya Nurhana
-                </p>
-                <p
-                  class="font-nunito font-normal text-[18px] text-grey leading-[28px] text-center"
-                >
-                  Product Manager, Travel Agency
-                </p>
-              </div>
+            class="card flex flex-col bg-white justify-center items-center shadow-lg rounded-2xl py-6 px-4 h-[386px]">
+            <div class="w-[188px] h-[188px] rounded-full overflow-hidden flex items-center justify-center">
+              <img src="./img/dokter1.png" alt="Foto Dokter" class="object-cover" />
             </div>
-            <div
-              class="card flex flex-col bg-white justify-center items-center shadow-lg rounded-2xl py-6 px-4 h-[468px]"
-            >
-              <div
-                class="w-[96px] h-[96px] rounded-full overflow-hidden flex items-center justify-center"
-              >
-                <img
-                  src="./img/testi2.png"
-                  alt="Foto Dokter"
-                  class="object-cover"
-                />
-              </div>
-              <p
-                class="font-nunito font-normal text-[18px] text-grey leading-[28px] text-center my-[32px] phone:w-[301.33px]"
-              >
-                “Fitwell telah membantu menangani berbagai tim yang memiliki
-                permasalahan berat badan hingga di perusahaan saya saat ini,
-                terima kasih Fitwell!”
-              </p>
-              <div>
-                <p
-                  class="font-nunito font-normal text-[18px] text-grey leading-[28px] text-center"
-                >
-                  Arya Wicaksono
-                </p>
-                <p
-                  class="font-nunito font-normal text-[18px] text-grey leading-[28px] text-center"
-                >
-                  IT Lead, E-Commerce
-                </p>
-              </div>
+            <h3 class="title font-maven font-bold text-[20px] mt-[64px]">
+              Yudha Eka Hekasatria...
+            </h3>
+            <p class="font-nunito font-normal text-[18px] text-grey leading-[28px] text-center mt-[1rem]">
+              Psychologist
+            </p>
+          </div>
+          <div
+            class="card flex flex-col bg-white justify-center items-center shadow-lg rounded-2xl py-6 px-4 h-[386px]">
+            <div class="w-[188px] h-[188px] rounded-full overflow-hidden flex items-center justify-center">
+              <img src="./img/dokter2.png" alt="Foto Dokter" class="object-cover" />
             </div>
-            <div
-              class="card flex flex-col bg-white justify-center items-center shadow-lg rounded-2xl py-6 px-4 h-[468px]"
-            >
-              <div
-                class="w-[96px] h-[96px] rounded-full overflow-hidden flex items-center justify-center"
-              >
-                <img
-                  src="./img/testi3.png"
-                  alt="Foto Dokter"
-                  class="object-cover"
-                />
-              </div>
-              <p
-                class="font-nunito font-normal text-[18px] text-grey leading-[28px] text-center my-[32px] phone:w-[301.33px]"
-              >
-                “Karyawan dari perusahaan saya saat ini terlihat lebih sehat dan
-                fresh setelah Fitwell hadir di perusahaan kami, semoga Fitwell
-                dapat berkembang lebih baik lagi!”
-              </p>
-              <div>
-                <p
-                  class="font-nunito font-normal text-[18px] text-grey leading-[28px] text-center"
-                >
-                  Fiska Dariyanti
-                </p>
-                <p
-                  class="font-nunito font-normal text-[18px] text-grey leading-[28px] text-center"
-                >
-                  Human Resource, Bank
-                </p>
-              </div>
+            <h3 class="title font-maven font-bold text-[20px] mt-[64px]">
+              dr. Aloisia Permata Sa...
+            </h3>
+            <p class="font-nunito font-normal text-[18px] text-grey leading-[28px] text-center mt-[1rem]">
+              Medical Advisor
+            </p>
+          </div>
+          <div
+            class="card flex flex-col bg-white justify-center items-center shadow-lg rounded-2xl py-6 px-4 h-[386px]">
+            <div class="w-[188px] h-[188px] rounded-full overflow-hidden flex items-center justify-center">
+              <img src="./img/dokter3.png" alt="Foto Dokter" class="object-cover" />
             </div>
+            <h3 class="title font-maven font-bold text-[20px] mt-[64px]">
+              Rani Kurnia Sari
+            </h3>
+            <p class="font-nunito font-normal text-[18px] text-grey leading-[28px] text-center mt-[1rem]">
+              Dietitian
+            </p>
+          </div>
+          <div
+            class="card flex flex-col bg-white justify-center items-center shadow-lg rounded-2xl py-6 px-4 h-[386px]">
+            <div class="w-[188px] h-[188px] rounded-full overflow-hidden flex items-center justify-center">
+              <img src="./img/dokter4.png" alt="Foto Dokter" class="object-cover" />
+            </div>
+            <h3 class="title font-maven font-bold text-[20px] mt-[64px]">
+              Taufiq Rizki Mubarak
+            </h3>
+            <p class="font-nunito font-normal text-[18px] text-grey leading-[28px] text-center mt-[1rem]">
+              Fitness Coach
+            </p>
           </div>
         </div>
-      </section>
+      </div>
+    </section>
 
-      <section
-        class="bg-[url('/img/bg-contact.svg')] bg-no-repeat bg-cover py-16"
-      >
-        <div class="container grid lg:grid-cols-2 grid-cols-1">
+    <section class="mt-[56px]">
+      <div class="container flex flex-col gap-24">
+        <div class="grid lg:grid-cols-2 grid-cols-1 gap-16">
+          <img src="./img/benefit1.png" alt="Gambar" />
           <div>
-            <h2
-              class="font-nunito md:text-[40px] text-[35px] leading-[64px] text-white md:w-[501px]"
-            >
-              Ayo! Ubah kesehatan karyawan bersama Fitwell.
-            </h2>
-            <img
-              src="./img/phone.png"
-              alt="Gambar Aplikasi Fitwell"
-              class="lg:w-[416px] lg:h-[545.2px] mt-[55px] lg:mb-0 mb-[50px]"
-            />
+            <h3 class="font-maven text-[32px] font-bold text-black2">
+              Pelatihan yang Dipersonalisasi
+            </h3>
+            <p class="font-nunito font-normal text-[18px] text-grey leading-[28px] mt-[1rem]">
+              Didukung oleh sains dan berdasarkan masukan Anda dengan waktu
+              respons 24 jam
+            </p>
           </div>
+        </div>
+        <div class="grid lg:grid-cols-2 grid-cols-1 gap-16">
           <div>
-            <form class="rounded-xl bg-white p-10 tablet:h-[756px]">
-              <div>
-                <div class="grid md:grid-cols-2 grid-cols-1 phone1:gap-10">
-                  <div class="input-box">
-                    <label for="first_name">Nama Depan</label>
-                    <input type="text" name="first_name" id="first_name" />
-                  </div>
-                  <div class="input-box">
-                    <label for="last_name">Nama Akhir</label>
-                    <input type="text" name="last_name" id="last_name" />
-                  </div>
-                </div>
-                <div class="grid md:grid-cols-2 grid-cols-1 phone1:gap-10">
-                  <div class="input-box">
-                    <label for="email_company">Email Perusahaan</label>
-                    <input
-                      type="email"
-                      name="email_company"
-                      id="email_company"
-                    />
-                  </div>
-                  <div class="input-box">
-                    <label for="phone_number">Nomor Ponsel</label>
-                    <input
-                      type="number"
-                      name="phone_number"
-                      id="phone_number"
-                    />
-                  </div>
-                </div>
-
-                <div class="input-box w-full">
-                  <label for="company_name">Nama Perusahaan</label>
-                  <input type="text" name="company_name" id="company_name" />
-                </div>
-                <select name="category_question">
-                  <option value="Solusi untuk Perusahaan">
-                    Solusi untuk Perusahaan
-                  </option>
-                </select>
-              </div>
-              <p
-                class="font-nunito text-lg text-black2 text-center mt-[32px] leading-[28px]"
-              >
-                Fitwell membutuhkan informasi kontak Anda untuk menghubungi Anda
-                kembali untuk menjelaskan tentang produk dan layanan kami. Anda
-                dapat berhenti berlangganan komunikasi ini kapan saja. Kami
-                berkomitmen untuk selalu melindungi privasi Anda, harap tinjau
-                Kebijakan Privasi kami.
-              </p>
-              <button
-                class="w-full h-[56px] bg-primary font-maven font-bold text-lg text-center text-white rounded-lg mt-[32px]"
-                type="submit"
-              >
-                Kirim
-              </button>
-            </form>
+            <h3 class="font-maven text-[32px] font-bold text-black2">
+              Perubahan Bermakna dan Abadi
+            </h3>
+            <p class="font-nunito font-normal text-[18px] text-grey leading-[28px] mt-[1rem]">
+              Perubahan kecil dari waktu ke waktu menyebabkan dampak besar.
+            </p>
+          </div>
+          <img src="./img/benefit2.png" alt="Gambar" />
+        </div>
+        <div class="grid lg:grid-cols-2 grid-cols-1 gap-16">
+          <img src="./img/benefit3.png" alt="Gambar" />
+          <div>
+            <h3 class="font-maven text-[32px] font-bold text-black2">
+              Akuntabilitas
+            </h3>
+            <p class="font-nunito font-normal text-[18px] text-grey leading-[28px] mt-[1rem]">
+              Dibangun melalui membangun hubungan berbasis kepercayaan dengan
+              pelatih Anda
+            </p>
           </div>
         </div>
-      </section>
+      </div>
+    </section>
 
-      <section class="lg:py-3 py-6">
-        <div class="container flex lg:flex-row flex-col justify-between">
-          <a href="#" class="logo lg:mx-0 mx-auto lg:mb-0 mb-6">
-            <img
-              src="./img/logo.png"
-              alt="Logo Fitwell"
-              class="w-[148px] h-[56px]"
-            />
-          </a>
-          <ul
-            class="font-nunito text-base text-black2 flex lg:flex-row flex-col items-center gap-10"
-          >
-            <li><a href="#">Tentang Kami</a></li>
-            <li><a href="#">Hubungi Kami</a></li>
-            <li><a href="#">Sumber Informasi</a></li>
-            <li><a href="#">Syarat dan Ketentuan</a></li>
-            <li><a href="kebijakan_privacy.html">Kebijakan Privasi</a></li>
-          </ul>
+    <section class="bg-blueYoung mt-[56px] py-12">
+      <div class="container">
+        <h2
+          class="font-maven font-bold md:text-[40px] text-black2 text-[35px] text-center leading-[48px] mb-[24px] mx-auto">
+          Apa Kata Mereka
+        </h2>
+        <p class="font-nunito font-normal text-[18px] text-center text-black2 leading-[28px]">
+          Hal-hal yang menjadikannya tempat terbaik untuk memulai hidup sehat.
+        </p>
+
+        <div class="grid xl:grid-cols-3 md:grid-cols-2 grid-cols-1 gap-10 mt-[64px]">
+          <div
+            class="card flex flex-col bg-white justify-center items-center shadow-lg rounded-2xl py-6 px-4 h-[468px]">
+            <div class="w-[96px] h-[96px] rounded-full overflow-hidden flex items-center justify-center">
+              <img src="./img/testi1.png" alt="Foto Dokter" class="object-cover" />
+            </div>
+            <p
+              class="font-nunito font-normal text-[18px] text-grey leading-[28px] text-center my-[32px] phone:w-[301.33px]">
+              “Dengan adanya Fitwell dapat membantu karyawan yang ada di
+              perusahaan kami menjadi lebih sehat dan meningkatkan
+              produktivitas karyawan”
+            </p>
+            <div>
+              <p class="font-nunito font-normal text-[18px] text-grey leading-[28px] text-center">
+                Fathiya Nurhana
+              </p>
+              <p class="font-nunito font-normal text-[18px] text-grey leading-[28px] text-center">
+                Product Manager, Travel Agency
+              </p>
+            </div>
+          </div>
+          <div
+            class="card flex flex-col bg-white justify-center items-center shadow-lg rounded-2xl py-6 px-4 h-[468px]">
+            <div class="w-[96px] h-[96px] rounded-full overflow-hidden flex items-center justify-center">
+              <img src="./img/testi2.png" alt="Foto Dokter" class="object-cover" />
+            </div>
+            <p
+              class="font-nunito font-normal text-[18px] text-grey leading-[28px] text-center my-[32px] phone:w-[301.33px]">
+              “Fitwell telah membantu menangani berbagai tim yang memiliki
+              permasalahan berat badan hingga di perusahaan saya saat ini,
+              terima kasih Fitwell!”
+            </p>
+            <div>
+              <p class="font-nunito font-normal text-[18px] text-grey leading-[28px] text-center">
+                Arya Wicaksono
+              </p>
+              <p class="font-nunito font-normal text-[18px] text-grey leading-[28px] text-center">
+                IT Lead, E-Commerce
+              </p>
+            </div>
+          </div>
+          <div
+            class="card flex flex-col bg-white justify-center items-center shadow-lg rounded-2xl py-6 px-4 h-[468px]">
+            <div class="w-[96px] h-[96px] rounded-full overflow-hidden flex items-center justify-center">
+              <img src="./img/testi3.png" alt="Foto Dokter" class="object-cover" />
+            </div>
+            <p
+              class="font-nunito font-normal text-[18px] text-grey leading-[28px] text-center my-[32px] phone:w-[301.33px]">
+              “Karyawan dari perusahaan saya saat ini terlihat lebih sehat dan
+              fresh setelah Fitwell hadir di perusahaan kami, semoga Fitwell
+              dapat berkembang lebih baik lagi!”
+            </p>
+            <div>
+              <p class="font-nunito font-normal text-[18px] text-grey leading-[28px] text-center">
+                Fiska Dariyanti
+              </p>
+              <p class="font-nunito font-normal text-[18px] text-grey leading-[28px] text-center">
+                Human Resource, Bank
+              </p>
+            </div>
+          </div>
         </div>
-      </section>
-    </main>
+      </div>
+    </section>
 
-    <footer class="bg-primary ">
-     <div class="container flex tablet:flex-row flex-col items-center justify-between tablet:gap-0 gap-6 tablet:py-4 py-6">
-       <p class="font-nunito text-sm text-white text-center">©2022 FitWell. Seluruh hak cipta. Dirancang dan Dikembangkan oleh PT Solusi Sarana Sehat.</p class="font-nunito ">
+    <section class="bg-[url('/img/bg-contact.svg')] bg-no-repeat bg-cover py-16">
+      <div class="container grid lg:grid-cols-2 grid-cols-1">
+        <div>
+          <h2 class="font-nunito md:text-[40px] text-[35px] leading-[64px] text-white md:w-[501px]">
+            Ayo! Ubah kesehatan karyawan bersama Fitwell.
+          </h2>
+          <img src="./img/phone.png" alt="Gambar Aplikasi Fitwell"
+            class="lg:w-[416px] lg:h-[545.2px] mt-[55px] lg:mb-0 mb-[50px]" />
+        </div>
+        <div>
+          <form class="rounded-xl bg-white p-10 tablet:h-[756px]">
+            <div>
+              <div class="grid md:grid-cols-2 grid-cols-1 phone1:gap-10">
+                <div class="input-box">
+                  <label for="first_name">Nama Depan</label>
+                  <input type="text" name="first_name" id="first_name" />
+                </div>
+                <div class="input-box">
+                  <label for="last_name">Nama Akhir</label>
+                  <input type="text" name="last_name" id="last_name" />
+                </div>
+              </div>
+              <div class="grid md:grid-cols-2 grid-cols-1 phone1:gap-10">
+                <div class="input-box">
+                  <label for="email_company">Email Perusahaan</label>
+                  <input type="email" name="email_company" id="email_company" />
+                </div>
+                <div class="input-box">
+                  <label for="phone_number">Nomor Ponsel</label>
+                  <input type="number" name="phone_number" id="phone_number" />
+                </div>
+              </div>
+
+              <div class="input-box w-full">
+                <label for="company_name">Nama Perusahaan</label>
+                <input type="text" name="company_name" id="company_name" />
+              </div>
+              <select name="category_question">
+                <option value="Solusi untuk Perusahaan">
+                  Solusi untuk Perusahaan
+                </option>
+              </select>
+            </div>
+            <p class="font-nunito text-lg text-black2 text-center mt-[32px] leading-[28px]">
+              Fitwell membutuhkan informasi kontak Anda untuk menghubungi Anda
+              kembali untuk menjelaskan tentang produk dan layanan kami. Anda
+              dapat berhenti berlangganan komunikasi ini kapan saja. Kami
+              berkomitmen untuk selalu melindungi privasi Anda, harap tinjau
+              Kebijakan Privasi kami.
+            </p>
+            <button
+              class="w-full h-[56px] bg-primary font-maven font-bold text-lg text-center text-white rounded-lg mt-[32px]"
+              type="submit">
+              Kirim
+            </button>
+          </form>
+        </div>
+      </div>
+    </section>
+
+    <section class="lg:py-3 py-6">
+      <div class="container flex lg:flex-row flex-col justify-between">
+        <a href="#" class="logo lg:mx-0 mx-auto lg:mb-0 mb-6">
+          <img src="./img/logo.png" alt="Logo Fitwell" class="w-[148px] h-[56px]" />
+        </a>
+        <ul class="font-nunito text-base text-black2 flex lg:flex-row flex-col items-center gap-10">
+          <li><a href="tentang_kami.html">Tentang Kami</a></li>
+          <li><a href="hubungi_kami.html">Hubungi Kami</a></li>
+          <li><a href="#">Sumber Informasi</a></li>
+          <li><a href="syarat_ketentuan.html">Syarat dan Ketentuan</a></li>
+          <li><a href="kebijakan_privacy.html">Kebijakan Privasi</a></li>
+        </ul>
+      </div>
+    </section>
+  </main>
+
+  <footer class="bg-primary ">
+    <div
+      class="container flex tablet:flex-row flex-col items-center justify-between tablet:gap-0 gap-6 tablet:py-4 py-6">
+      <p class="font-nunito text-sm text-white text-center">©2022 FitWell. Seluruh hak cipta. Dirancang dan Dikembangkan
+        oleh PT Solusi Sarana Sehat.</p class="font-nunito ">
       <div class="flex items-center gap-5">
         <a href="">
-           <img src="./img/facebook.svg" alt="Icon Facebook">
+          <img src="./img/facebook.svg" alt="Icon Facebook">
         </a>
-        <a href="">        
+        <a href="">
           <img src="./img/twitter.svg" alt="Icon Twitter">
         </a>
-        <a href="">        
+        <a href="">
           <img src="./img/instagram.svg" alt="Icon Instagram">
         </a>
-        <a href="">   
-           <img src="./img/tiktok.svg" alt="Icon Tiktok">
+        <a href="">
+          <img src="./img/tiktok.svg" alt="Icon Tiktok">
         </a>
       </div>
-     </div>
-    </footer>
+    </div>
+  </footer>
 
-    <!-- Iconify -->
-    <script src="https://code.iconify.design/2/2.2.1/iconify.min.js"></script>
+  <!-- Iconify -->
+  <script src="https://code.iconify.design/2/2.2.1/iconify.min.js"></script>
 
-    <!-- Swiper Slider -->
-    <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
+  <!-- Swiper Slider -->
+  <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
 
-    <!-- Custom Script -->
-    <script src="./js/app.js"></script>
-    <script src="./js/slider.js"></script>
-  </body>
+  <!-- Custom Script -->
+  <script src="./js/app.js"></script>
+  <script src="./js/slider.js"></script>
+</body>
+
 </html>
