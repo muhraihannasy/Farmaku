@@ -1038,6 +1038,14 @@ video {
   background-image: url('/img/bg_kolestrol.png');
 }
 
+.bg-\[url\(\'\/img\/bg_tekanan_darah\.png\'\)\] {
+  background-image: url('/img/bg_tekanan_darah.png');
+}
+
+.bg-\[url\(\'\/img\/bg_tekanan_darah\.pn\'\)\] {
+  background-image: url('/img/bg_tekanan_darah.pn');
+}
+
 .bg-cover {
   background-size: cover;
 }

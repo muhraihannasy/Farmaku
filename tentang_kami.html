@@ -1,167 +1,148 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link
-      rel="stylesheet"
-      href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css"
-    />
-    <link href="/dist/output.css" rel="stylesheet" />
-  </head>
-  <body>
-    <header class="bg-white shadow-lg py-5">
-      <nav
-        class="container mx-auto flex justify-between items-center font-nunito"
-      >
-        <div class="flex gap-16 items-center">
-          <a href="#">
-            <img
-              src="./img/logo.png"
-              alt="Logo Fitwell"
-              class="w-[126px] h-[48px]"
-            />
-          </a>
-          <ul class="nav-group flex items-center gap-10">
-            <div class="close-navbar cursor-pointer tablet:hidden">
-              <span
-                class="iconify text-3xl text-primary"
-                data-icon="bi:arrow-left-circle-fill"
-              ></span>
-            </div>
 
-            <li class="dropdown">
-              <a href="javascript:void(0)" class="nav-link"
-                >Penawaran
-                <span class="iconify" data-icon="ep:arrow-down-bold"></span
-              ></a>
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css" />
+  <link href="/dist/output.css" rel="stylesheet" />
+</head>
 
-              <ul>
-                <li><a href="">Untuk Perusahaan</a></li>
-                <li><a href="">Untuk Penyedia Asuransi</a></li>
-              </ul>
-            </li>
-            <li class="dropdown">
-              <a href="javascript:void(0)" class="nav-link"
-                >Program
-                <span class="iconify" data-icon="ep:arrow-down-bold"></span>
-              </a>
+<body>
+  <header class="bg-white shadow-lg py-5">
+    <nav class="container mx-auto flex justify-between items-center font-nunito">
+      <div class="flex gap-16 items-center">
+        <a href="#">
+          <img src="./img/logo.png" alt="Logo Fitwell" class="w-[126px] h-[48px]" />
+        </a>
+        <ul class="nav-group flex items-center gap-10">
+          <div class="close-navbar cursor-pointer tablet:hidden">
+            <span class="iconify text-3xl text-primary" data-icon="bi:arrow-left-circle-fill"></span>
+          </div>
 
-              <ul>
-                <li><a href="">Kesehatan Mental</a></li>
-                <li><a href="">Obesitas</a></li>
-                <li><a href="">Diabetes</a></li>
-                <li><a href="">Tekanan Darah Tinggi</a></li>
-                <li><a href="">Kolestrol</a></li>
-              </ul>
-            </li>
-            <li><a href="#" class="nav-link">Tentang Kami</a></li>
-            <li class="tablet:hidden">
-              <a
-                href=""
-                class="border-2 h-max w-max py-2 px-4 rounded-lg border-primary text-primary font-bold transition-colors hover:bg-primary hover:text-white"
-                >Hubungi Kami</a
-              >
-            </li>
-          </ul>
+          <li class="dropdown">
+            <a href="javascript:void(0)" class="nav-link">Penawaran
+              <span class="iconify" data-icon="ep:arrow-down-bold"></span></a>
+
+            <ul>
+              <li><a href="penawaran_perusahaan.html">Untuk Perusahaan</a></li>
+              <li><a href="penawaran_penyedia.html">Untuk Penyedia Asuransi</a></li>
+            </ul>
+          </li>
+          <li class="dropdown">
+            <a href="javascript:void(0)" class="nav-link">Program
+              <span class="iconify" data-icon="ep:arrow-down-bold"></span>
+            </a>
+
+            <ul>
+              <li><a href="progam_kesehatan_mental.html">Kesehatan Mental</a></li>
+              <li><a href="progam_obesitas.html">Obesitas</a></li>
+              <li><a href="progam_diabetes.html">Diabetes</a></li>
+              <li><a href="progam_tekanan_darah.html">Tekanan Darah Tinggi</a></li>
+              <li><a href="progam_kolestrol.html">Kolestrol</a></li>
+            </ul>
+          </li>
+          <li><a href="tentang_kami.html" class="nav-link">Tentang Kami</a></li>
+          <li class="tablet:hidden">
+            <a href="hubungi_kami.html"
+              class="border-2 h-max w-max py-2 px-4 rounded-lg border-primary text-primary font-bold transition-colors hover:bg-primary hover:text-white">Hubungi
+              Kami</a>
+          </li>
+        </ul>
+      </div>
+      <a href="hubungi_kami.html"
+        class="border-2 h-max w-max py-2 px-4 rounded-lg border-primary text-primary font-bold transition-colors hover:bg-primary hover:text-white tablet:block hidden">Hubungi
+        Kami</a>
+      <div class="open-navbar cursor-pointer tablet:hidden">
+        <span class="iconify text-3xl text-primary" data-icon="fluent:list-16-filled"></span>
+      </div>
+    </nav>
+  </header>
+
+  <main>
+    <section
+      class="relative bg-[url('/img/bg2.svg')] h-[192px] flex flex-col justify-center before:bg-white before:h-[108px] before:w-[6rem] before:rounded-2xl before:absolute before:-left-[5rem] before:top-[23%] ">
+      <div class="container font-nunito text-white ">
+        <h2 class="text-sm">Beranda</h2>
+        <h2 class="font-maven font-bold text-[32px] mt-[16px]">Tentang Kami</h2>
+      </div>
+    </section>
+
+    <section>
+      <div class="flex lg:flex-row flex-col gap-4 lg:mb-0 mb-20 ">
+        <div class="h-[604px] lg:w-[554px] w-full  ">
+          <img src="./img/image_about.jpg" alt="Gambar Gedung Besar" class="h-full w-full">
         </div>
-        <a
-          href=""
-          class="border-2 h-max w-max py-2 px-4 rounded-lg border-primary text-primary font-bold transition-colors hover:bg-primary hover:text-white tablet:block hidden"
-          >Hubungi Kami</a
-        >
-        <div class="open-navbar cursor-pointer tablet:hidden">
-          <span
-            class="iconify text-3xl text-primary"
-            data-icon="fluent:list-16-filled"
-          ></span>
+        <div
+          class=" flex flex-col gap-7 justify-center font-nunito text-lg text-black2 text-[18px] leading-[28px] lg:w-[827px] px-8 lg:mt:0 mt-8">
+          <p>
+            <span class="font-bold text-primary">FitWell</span>
+            adalah bagian dari PT. Solusi Sarana Sehat (Farmaku) yang telah berdiri sejak tahun 2016.
+          </p>
+          <p>
+            Dimulai sebagai platform apotek web online dan mendirikan beberapa captive business seperti DokterSehat
+            (telemedicine), Lesssalt Diet (diet dan nutrisi), dan Clinic (layanan kesehatan).
+          </p>
+          <p>
+            Fokus kami adalah pasar B2B untuk melayani korporasi dan menyediakan
+            <span class="font-bold text-primary">program bantuan kesehatan mental & fisik.</span>
+          </p>
+          <p>
+            Dengan memiliki ekosistem bisnis yang komprehensif, kami yakin layanan program kesehatan berbasis digital
+            akan lebih efektif.
+          </p>
         </div>
-      </nav>
-    </header>
-
-    <main>
-        <section class="relative bg-[url('/img/bg2.svg')] h-[192px] flex flex-col justify-center before:bg-white before:h-[108px] before:w-[6rem] before:rounded-2xl before:absolute before:-left-[5rem] before:top-[23%] ">
-            <div class="container font-nunito text-white ">
-                <h2 class="text-sm">Beranda</h2>
-                <h2 class="font-maven font-bold text-[32px] mt-[16px]">Tentang Kami</h2>
-            </div>
-        </section>
-
-        <section>
-            <div class="flex lg:flex-row flex-col gap-4 lg:mb-0 mb-20 ">
-                <div class="h-[604px] lg:w-[554px] w-full  ">
-                    <img src="./img/image_about.jpg" alt="Gambar Gedung Besar" class="h-full w-full">
-                </div>
-                <div class=" flex flex-col gap-7 justify-center font-nunito text-lg text-black2 text-[18px] leading-[28px] lg:w-[827px] px-8 lg:mt:0 mt-8">
-                    <p>
-                        <span class="font-bold text-primary">FitWell</span>
-                        adalah bagian dari PT. Solusi Sarana Sehat (Farmaku) yang telah berdiri sejak tahun 2016.
-                    </p>
-                    <p>
-                        Dimulai sebagai platform apotek web online dan mendirikan beberapa captive business seperti DokterSehat (telemedicine), Lesssalt Diet (diet dan nutrisi), dan Clinic (layanan kesehatan).
-                    </p>
-                    <p>
-                        Fokus kami adalah pasar B2B untuk melayani korporasi dan menyediakan 
-                        <span class="font-bold text-primary">program bantuan kesehatan mental & fisik.</span>
-                    </p>
-                    <p>
-                        Dengan memiliki ekosistem bisnis yang komprehensif, kami yakin layanan program kesehatan berbasis digital akan lebih efektif.
-                    </p>
-                </div>
-            </div>
-        </section>
+      </div>
+    </section>
 
 
-      <section class="lg:py-3 py-6 border-t-2 border-primary">
-        <div class="container flex lg:flex-row flex-col justify-between">
-          <a href="#" class="logo lg:mx-0 mx-auto lg:mb-0 mb-6">
-            <img
-              src="./img/logo.png"
-              alt="Logo Fitwell"
-              class="w-[148px] h-[56px]"
-            />
-          </a>
-          <ul
-            class="font-nunito text-base text-black2 flex lg:flex-row flex-col items-center gap-10"
-          >
-            <li><a href="#">Tentang Kami</a></li>
-            <li><a href="#">Hubungi Kami</a></li>
-            <li><a href="#">Sumber Informasi</a></li>
-            <li><a href="#">Syarat dan Ketentuan</a></li>
-            <li><a href="kebijakan_privacy.html">Kebijakan Privasi</a></li>
-          </ul>
-        </div>
-      </section>
-    </main>
+    <section class="lg:py-3 py-6 border-t border-primary">
+      <div class="container flex lg:flex-row flex-col justify-between">
+        <a href="#" class="logo lg:mx-0 mx-auto lg:mb-0 mb-6">
+          <img src="./img/logo.png" alt="Logo Fitwell" class="w-[148px] h-[56px]" />
+        </a>
+        <ul class="font-nunito text-base text-black2 flex lg:flex-row flex-col items-center gap-10">
+          <li><a href="tentang_kami.html">Tentang Kami</a></li>
+          <li><a href="hubungi_kami.html">Hubungi Kami</a></li>
+          <li><a href="#">Sumber Informasi</a></li>
+          <li><a href="syarat_ketentuan.html">Syarat dan Ketentuan</a></li>
+          <li><a href="kebijakan_privacy.html">Kebijakan Privasi</a></li>
+        </ul>
+      </div>
+    </section>
+  </main>
 
-    <footer class="bg-primary ">
-     <div class="container flex tablet:flex-row flex-col items-center justify-between tablet:gap-0 gap-6 tablet:py-4 py-6">
-       <p class="font-nunito text-sm text-white text-center">©2022 FitWell. Seluruh hak cipta. Dirancang dan Dikembangkan oleh PT Solusi Sarana Sehat.</p class="font-nunito ">
+  <footer class="bg-primary ">
+    <div
+      class="container flex tablet:flex-row flex-col items-center justify-between tablet:gap-0 gap-6 tablet:py-4 py-6">
+      <p class="font-nunito text-sm text-white text-center">©2022 FitWell. Seluruh hak cipta. Dirancang dan Dikembangkan
+        oleh PT Solusi Sarana Sehat.</p class="font-nunito ">
       <div class="flex items-center gap-5">
         <a href="">
-           <img src="./img/facebook.svg" alt="Icon Facebook">
+          <img src="./img/facebook.svg" alt="Icon Facebook">
         </a>
-        <a href="">        
+        <a href="">
           <img src="./img/twitter.svg" alt="Icon Twitter">
         </a>
-        <a href="">        
+        <a href="">
           <img src="./img/instagram.svg" alt="Icon Instagram">
         </a>
-        <a href="">   
-           <img src="./img/tiktok.svg" alt="Icon Tiktok">
+        <a href="">
+          <img src="./img/tiktok.svg" alt="Icon Tiktok">
         </a>
       </div>
-     </div>
-    </footer>
+    </div>
+  </footer>
 
-    <!-- Iconify -->
-    <script src="https://code.iconify.design/2/2.2.1/iconify.min.js"></script>
+  <!-- Iconify -->
+  <script src="https://code.iconify.design/2/2.2.1/iconify.min.js"></script>
 
-    <!-- Swiper Slider -->
-    <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
+  <!-- Swiper Slider -->
+  <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
 
-    <!-- Custom Script -->
-    <script src="./js/app.js"></script>
-    <script src="./js/slider.js"></script>
-  </body>
+  <!-- Custom Script -->
+  <script src="./js/app.js"></script>
+  <script src="./js/slider.js"></script>
+</body>
+
 </html>
